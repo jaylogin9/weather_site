@@ -3,7 +3,7 @@
 Check the current weather on any city on the planet.
 
 ## Features
----
+
 - User's ability to search cities.
 
 - Temperatures.
@@ -13,7 +13,7 @@ Check the current weather on any city on the planet.
 - Error handling.
 
 ## Installation
----
+
 
 
 - **Open Terminal**
@@ -33,7 +33,7 @@ Check the current weather on any city on the planet.
 
 
 ## Requirements 
----
+
 * Go to the Weather_site directory.
 ```sh
 cd weather_site.
@@ -57,11 +57,11 @@ localhost:7000/
 
 
 ## Contributions
----
+
 Any feature requests and pull requests are welcome!
 
 ## License
----
+
 MIT
 
 
