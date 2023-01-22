@@ -11,7 +11,7 @@ Wind speed.
 Error handling.
 
 Installation
-git clone https://github.com/jaylogin9/weather
+git clone https://github.com/jaylogin9/weather_site
 
 cd weather-app
 
