@@ -18,9 +18,9 @@ app.get("/", (req, res) => {
   // Render the Display.hbs Page.
 app.post("/info", async (req, res) => {
   let city = req.body.nameCity;
-  const apiKey =process.env.API;
+  
   // fetch the response from the link.
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&&lang=hi&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&&lang=hi&appid=a3c7741da6024234f69c7055e4db0dca`;
   requests(url)
     .on("data", (chunk) => {
       const jsonData = JSON.parse(chunk);
