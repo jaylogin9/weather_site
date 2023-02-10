@@ -4,6 +4,7 @@ const requests = require("requests"); // <-- typo error, should be "request" not
 const path = require("path");
 const bodyParser = require("body-parser");
 require("dotenv").config();
+const port = process.env.PORT || 7000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -33,6 +34,6 @@ app.post("/info", async (req, res) => {
     });
 });
 
-app.listen(7000, () => {
-  console.log("Server Start");
+app.listen(port, () => {
+  console.log(`Server listening to port ${port}` );
 });

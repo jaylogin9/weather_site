@@ -1,8 +1,28 @@
 {
+  "name": "weather_site",
+  "version": "1.0.0",
+  "description": "Weather App\r Check the current weather on any city on the planet.",
+  "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "requests": "^0.3.0"
-  }
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylogin9/weather_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaylogin9/weather_site/issues"
+  },
+  "homepage": "https://github.com/jaylogin9/weather_site#readme"
 }
